@@ -1,0 +1,28 @@
+.andreas span:after {
+  content: "Web Developer";
+  animation: words 20s infinite;
+}
+
+@keyframes words {
+  0% {
+    content: " Building Web Experiences";
+  }
+  16.67% {
+    content: " Full-Stack Development";
+  }
+  33.33% {
+    content: " HTML & CSS";
+  }
+  50% {
+    content: " React";
+  }
+  66.67% {
+    content: " Next.js";
+  }
+  83.33% {
+    content: " Cloud Integration";
+  }
+  100% {
+    content: " Building Web Experiences";
+  }
+}
